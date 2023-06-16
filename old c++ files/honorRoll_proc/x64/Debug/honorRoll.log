@@ -1,0 +1,6 @@
+﻿  GetData.cpp
+  honor_roll.cpp
+C:\Users\Humna\source\repos\cppProjects\honorRoll\honor_roll.cpp(151,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Humna\source\repos\cppProjects\honorRoll\honor_roll.cpp(189,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  honorRoll.vcxproj -> C:\Users\Humna\source\repos\cppProjects\x64\Debug\honorRoll_proc.exe
