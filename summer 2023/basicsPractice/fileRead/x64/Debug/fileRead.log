@@ -1,0 +1,3 @@
+﻿  readInput.cpp
+C:\Users\Humna\source\repos\basicsPractice\fileRead\readInput.cpp(7,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  fileRead.vcxproj -> C:\Users\Humna\source\repos\basicsPractice\x64\Debug\fileRead.exe

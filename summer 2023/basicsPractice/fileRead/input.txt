@@ -1,0 +1,5 @@
+I am practicing C++ right now.
+Today is Tuesday.
+I like cookies.
+My cat's name is Coco.
+18399102019139
