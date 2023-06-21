@@ -18,5 +18,8 @@
     <ClCompile Include="const_nspaces.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="typedefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

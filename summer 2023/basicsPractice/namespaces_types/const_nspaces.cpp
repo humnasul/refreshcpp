@@ -8,7 +8,7 @@ namespace second {
 	int x = 2;
 }
 // namespaces allow for variables of the same name, as long as they are placed in diff namespaces
-int main() {
+int main2() {
 	using namespace std;
 	// saves typing - std:: has a variety of entities within it
 
