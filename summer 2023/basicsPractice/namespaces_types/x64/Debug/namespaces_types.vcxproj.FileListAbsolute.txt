@@ -1,0 +1,3 @@
+C:\Users\Humna\source\repos\basicsPractice\namespaces_types\x64\Debug\namespaces_types.vcxproj.MdMergeInputs.cache
+C:\Users\Humna\source\repos\basicsPractice\namespaces_types\x64\Debug\namespaces_types.vcxproj.cppwinrt_plat.cache
+C:\Users\Humna\source\repos\basicsPractice\namespaces_types\x64\Debug\namespaces_types.vcxproj.cppwinrt_comp.cache

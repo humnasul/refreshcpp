@@ -15,11 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="const_nspace.xaml">
+    <ClCompile Include="const_nspaces.cpp">
       <Filter>Source Files</Filter>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
+    </ClCompile>
   </ItemGroup>
 </Project>
