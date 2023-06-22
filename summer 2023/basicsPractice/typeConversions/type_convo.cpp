@@ -24,5 +24,13 @@ int main() {
 
 	std::cout << (char)100;
 	//converts value 100 to associated ascii and prints because of the (char)
+
+	//grades example below
+	int correct = 8;
+	int questions = 10;
+	//double score = correct / questions * 100; OLD - you need to cast questions as a double!
+	double score = correct / (double)questions * 100;
+
+	std::cout << score << "%";
 	return 0;
 }
