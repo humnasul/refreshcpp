@@ -12,6 +12,13 @@ using namespace std;
 
 void main() {
 	ifstream books;
-	books.open("inventory.txt")
+	books.open("inventory.txt");
+
+	string lines[100];
+	int i = 0;
+
+	while (std::getline(books, lines[i])) {
+		i++;
+	}
 
 }
