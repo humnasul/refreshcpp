@@ -12,6 +12,6 @@ using namespace std;
 
 void main() {
 	ifstream books;
-	//books.open("")
+	books.open("inventory.txt")
 
 }
