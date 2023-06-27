@@ -3,6 +3,7 @@
 #include <string>
 #include <iostream>
 #include <sstream>
+#include <vector>
 
 using namespace std;
 
@@ -16,23 +17,24 @@ void main() {
 	ifstream books;
 	books.open("inventory.txt");
 
-	string book_names[100];
-	string authors[100];
+	vector<string> book_names;
+	vector<string> authors;
 
 	int i = 0;
 
 	string line;
 	while (std::getline(books, line)) {
-		book_names[i] = line.substr(line.find("-") + 1);
-		authors[i] = line.substr(0, line.find("-"));
+		book_names.push_back(line.substr(0, line.find("-")));
+		authors.push_back(line.substr(line.find("-") + 1));
 		i++;
 	}
 	books.close();
 
-	int print = std::size(book_names);
+	int print = book_names.size();
+	//cout << print;
 	for (int c = 0; c < print; c++) {
-		cout << book_names[c] << " by ";
-		cout << authors[c] << endl;
+		cout << book_names.at(c) << " by ";
+		cout << authors.at(c) << endl;
 	}
 
 	/*
