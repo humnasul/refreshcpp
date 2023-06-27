@@ -16,7 +16,9 @@ void main() {
 	ifstream books;
 	books.open("inventory.txt");
 
-	string lines[100];
+	string book_names[100];
+	string authors[100];
+
 	int i = 0;
 
 	while (true) {
@@ -24,8 +26,8 @@ void main() {
 		getline(books, line);
 		if (books.fail()) break;
 
-		line.substr(line.find(":") + 1);
-		line.substr(0, line.find(":"));
+		book_names[i] = line.substr(line.find(":") + 1);
+		authors[i] = line.substr(0, line.find(":"));
 	}
 	books.close();
 
