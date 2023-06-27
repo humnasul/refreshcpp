@@ -31,6 +31,12 @@ void main() {
 	}
 	books.close();
 
+	int print = std::size(book_names);
+	for (int c = 0; c < print; c++) {
+		cout << book_names[i];
+		cout << authors[i];
+	}
+
 	/*
 	while (std::getline(books, lines[i])) {
 		i++;
