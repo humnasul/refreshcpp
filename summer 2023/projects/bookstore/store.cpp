@@ -24,7 +24,8 @@ void main() {
 		getline(books, line);
 		if (books.fail()) break;
 
-		cout << line << endl;
+		line.substr(line.find(":") + 1);
+		line.substr(0, line.find(":"));
 	}
 	books.close();
 
