@@ -1,0 +1,4 @@
+﻿  store.cpp
+C:\Users\Humna\source\repos\summerProj\bookstore\store.cpp(15,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Humna\source\repos\summerProj\bookstore\store.cpp(32,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  bookstore.vcxproj -> C:\Users\Humna\source\repos\summerProj\x64\Debug\bookstore.exe
