@@ -1,6 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <iostream>
+#include <sstream>
 
 using namespace std;
 
@@ -17,8 +19,19 @@ void main() {
 	string lines[100];
 	int i = 0;
 
+	while (true) {
+		string line;
+		getline(books, line);
+		if (books.fail()) break;
+
+		cout << line << endl;
+	}
+	books.close();
+
+	/*
 	while (std::getline(books, lines[i])) {
 		i++;
 	}
+	*/
 
 }
