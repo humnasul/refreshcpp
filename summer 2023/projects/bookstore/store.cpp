@@ -28,7 +28,13 @@ void main() {
 		authors.push_back(line.substr(line.find("-") + 1));
 		i++;
 	}
+	//putting values into vectors
 	books.close();
+	//closing file
+
+
+	//ask options at the start
+
 
 	int print = book_names.size();
 	//cout << print;
@@ -36,6 +42,9 @@ void main() {
 		cout << book_names.at(c) << " by ";
 		cout << authors.at(c) << endl;
 	}
+	//printing out all current books
+
+	//make a system to add new books and give a list of options to the user
 
 	/*
 	while (std::getline(books, lines[i])) {
