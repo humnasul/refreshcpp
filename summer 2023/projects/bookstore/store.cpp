@@ -34,6 +34,10 @@ void main() {
 
 
 	//ask options at the start
+	cout << "Welcome to Avery's library :)" << endl;
+	cout << "Enter what option you would like!!" << endl;
+	cout << "1. See current books in library (in order of what's on the shelf)" << endl;
+	cout << "1. See current books in library (alphabetical)" << endl;
 
 
 	int print = book_names.size();
