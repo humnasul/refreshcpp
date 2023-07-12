@@ -13,6 +13,13 @@ using namespace std;
  * reads from a file for books in bookself
  */
 
+bool check_number(string str) {
+	for (int i = 0; i < str.length(); i++)
+		if (isdigit(str[i]) == false)
+			return false;
+	return true;
+}
+
 void main() {
 	ifstream books;
 	books.open("inventory.txt");
@@ -21,7 +28,7 @@ void main() {
 	vector<string> authors;
 
 	int i = 0;
-	string option;
+	int option = 0;
 
 	string line;
 	while (std::getline(books, line)) {
@@ -33,21 +40,16 @@ void main() {
 	books.close();
 	//closing file
 
-
-	//ask options at the start
-	cout << "Welcome to Avery's library :)" << endl;
-	cout << "Enter what option you would like!!" << endl;
-	cout << "1. See current books in library (in order of what's on the shelf)" << endl;
-	cout << "2. See current books in library (alphabetical)" << endl;
-	cin >> option;
-	int intOption = stoi(option);
-
-	for (int i = 0; i < strlen(str); i++) {
-		if (isdigit(str[i]))
-			printf("The string contains int\n");
-		else
-			printf("The string does not contain int\n");
+	
+	while (option != 1 && option != 2) {
+		//ask options at the start
+		cout << "Welcome to Avery's library :)" << endl;
+		cout << "Enter what option you would like!!" << endl;
+		cout << "1. See current books in library (in order of what's on the shelf)" << endl;
+		cout << "2. See current books in library (alphabetical)" << endl;
+		cin >> option;
 	}
+	
 
 
 	int print = book_names.size();
