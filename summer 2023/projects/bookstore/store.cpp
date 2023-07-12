@@ -40,6 +40,14 @@ void main() {
 	cout << "1. See current books in library (in order of what's on the shelf)" << endl;
 	cout << "2. See current books in library (alphabetical)" << endl;
 	cin >> option;
+	int intOption = stoi(option);
+
+	for (int i = 0; i < strlen(str); i++) {
+		if (isdigit(str[i]))
+			printf("The string contains int\n");
+		else
+			printf("The string does not contain int\n");
+	}
 
 
 	int print = book_names.size();
