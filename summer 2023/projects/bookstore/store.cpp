@@ -28,7 +28,7 @@ void main() {
 	vector<string> authors;
 
 	int i = 0;
-	int option = 0;
+	int option;
 
 	string line;
 	while (std::getline(books, line)) {
@@ -41,12 +41,14 @@ void main() {
 	//closing file
 
 	
-	while (option != 1 && option != 2) {
-		//ask options at the start
-		cout << "Welcome to Avery's library :)" << endl;
-		cout << "Enter what option you would like!!" << endl;
-		cout << "1. See current books in library (in order of what's on the shelf)" << endl;
-		cout << "2. See current books in library (alphabetical)" << endl;
+	//ask options at the start
+	cout << "Welcome to Avery's library :)" << endl;
+	cout << "Enter what option you would like!!" << endl;
+	cout << "1. See current books in library (in order of what's on the shelf)" << endl;
+	cout << "2. See current books in library (alphabetical)" << endl;
+	cin >> option;
+	if (std::cin.fail()) {
+		cout << "please enter number roar" << endl;
 		cin >> option;
 	}
 	
