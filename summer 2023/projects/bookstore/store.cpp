@@ -73,7 +73,8 @@ void main() {
 		std::copy(book_names.begin(), book_names.end(), std::back_inserter(booksAlp));
 		std::sort(booksAlp.begin(), booksAlp.end());
 
-		
+		std::copy(authors.begin(), authors.end(), std::back_inserter(authAlp));
+		std::sort(authAlp.begin(), authAlp.end());
 	}
 
 
