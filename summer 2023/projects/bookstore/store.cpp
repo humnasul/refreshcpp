@@ -55,6 +55,7 @@ void main() {
 	}
 
 	if (option == 1) {
+		int print = book_names.size();
 		for (int c = 0; c < print; c++) {
 			cout << book_names.at(c) << " by ";
 			cout << authors.at(c) << endl;
