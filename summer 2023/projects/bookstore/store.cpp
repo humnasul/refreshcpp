@@ -4,6 +4,8 @@
 #include <iostream>
 #include <sstream>
 #include <vector>
+#include <algorithm>
+
 
 using namespace std;
 
@@ -65,7 +67,13 @@ void main() {
 	}
 
 	if (option == 2) {
+		vector <string> booksAlp;
+		vector <string> authAlp;
 
+		std::copy(book_names.begin(), book_names.end(), std::back_inserter(booksAlp));
+		std::sort(booksAlp.begin(), booksAlp.end());
+
+		
 	}
 
 
