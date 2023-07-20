@@ -40,20 +40,29 @@ void main() {
 	books.close();
 	//closing file
 
-	
+
 	//ask options at the start
 	cout << "Welcome to Avery's library :)" << endl;
 	cout << "Enter what option you would like!!" << endl;
 	cout << "1. See current books in library (in order of what's on the shelf)" << endl;
 	cout << "2. See current books in library (alphabetical)" << endl;
 	cin >> option;
+
 	if (std::cin.fail()) {
 		cout << "please enter number roar" << endl;
+		std::cin.clear();
 		cin >> option;
 	}
-	
+
+	if (option == 1) {
+		for (int c = 0; c < print; c++) {
+			cout << book_names.at(c) << " by ";
+			cout << authors.at(c) << endl;
+		}
+	}
 
 
+	/*
 	int print = book_names.size();
 	//cout << print;
 	for (int c = 0; c < print; c++) {
@@ -61,6 +70,7 @@ void main() {
 		cout << authors.at(c) << endl;
 	}
 	//printing out all current books
+	*/
 
 	//make a system to add new books and give a list of options to the user
 
