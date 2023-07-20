@@ -46,6 +46,8 @@ void main() {
 	cout << "Enter what option you would like!!" << endl;
 	cout << "1. See current books in library (in order of what's on the shelf)" << endl;
 	cout << "2. See current books in library (alphabetical)" << endl;
+	cout << "3. Buy a book off of the shelf" << endl;
+	cout << "4. Donate a new book to the shelf" << endl;
 	cin >> option;
 
 	if (std::cin.fail()) {
@@ -60,6 +62,10 @@ void main() {
 			cout << book_names.at(c) << " by ";
 			cout << authors.at(c) << endl;
 		}
+	}
+
+	if (option == 2) {
+
 	}
 
 
