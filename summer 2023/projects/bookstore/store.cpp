@@ -75,6 +75,12 @@ void main() {
 
 		std::copy(authors.begin(), authors.end(), std::back_inserter(authAlp));
 		std::sort(authAlp.begin(), authAlp.end());
+
+		int print = book_names.size();
+		for (int c = 0; c < print; c++) {
+			cout << booksAlp.at(c) << " by ";
+			cout << authAlp.at(c) << endl;
+		}
 	}
 
 
