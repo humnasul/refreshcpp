@@ -11,7 +11,10 @@ int main() {
 	int cat = 9;
 	cat % 2 == 1 ? cout << "ODD" : cout << "EVEN";
 
-	bool 
+	bool meow = true;
+	meow ? cout << "cat!" : cout << "dog?";
+
+	cout << (meow ? "yes cat" : "no cat");
 
 	return 0;
 }
