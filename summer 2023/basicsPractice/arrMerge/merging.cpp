@@ -1,4 +1,5 @@
 
+#include <algorithm>
 using namespace std;
 
 void mergeArrays(int arr1[], int arr2[], int arr3[])
