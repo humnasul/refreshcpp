@@ -1,5 +1,6 @@
 
 #include <algorithm>
+#include <iostream>
 using namespace std;
 
 void mergeArrays(int arr1[], int arr2[], int arr3[])
@@ -20,4 +21,23 @@ void mergeArrays(int arr1[], int arr2[], int arr3[])
 
     // sort the whole array arr3
     sort(arr3, arr3 + n1 + n2);
+}
+
+int main()
+{
+    int arr1[] = { 1, 3, 5, 7 };
+
+    int arr2[] = { 2, 4, 6, 8 };
+
+    int len1 = sizeof(arr1) / sizeof(arr1[0]);
+    int len2 = sizeof(arr2) / sizeof(arr2[0]);
+
+    int arr3[len1 + len2];
+    mergeArrays(arr1, arr2, arr3);
+
+    cout << "Array after merging" << endl;
+    for (int i = 0; i < len1 + len2; i++)
+        cout << arr3[i] << " ";
+
+    return 0;
 }
