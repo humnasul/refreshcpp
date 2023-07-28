@@ -7,5 +7,11 @@ char board[3][3] = { {'-','-' ,'-' }, { '-' ,'-' ,'-' }, { '-' ,'-' ,'-' } };
 
 void game_class::start()
 {
-    cout << "Doing something!" << endl;
+    cout << "Welcome to Tic Tac Toe!" << endl;
+    cout << "Starting game..." << endl;
+}
+
+void game_class::printBoard()
+{
+
 }
