@@ -1,2 +1,3 @@
-﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+﻿  tictactoe.cpp
+tictactoe.obj : error LNK2019: unresolved external symbol "private: bool __cdecl game_class::findWin(void)" (?findWin@game_class@@AEAA_NXZ) referenced in function "public: void __cdecl game_class::start(void)" (?start@game_class@@QEAAXXZ)
 C:\Users\Humna\source\repos\summerProj\x64\Debug\tictactoe.exe : fatal error LNK1120: 1 unresolved externals

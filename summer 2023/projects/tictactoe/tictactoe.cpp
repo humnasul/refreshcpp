@@ -5,6 +5,12 @@ using namespace std;
 
 char board[3][3] = { {'-','-' ,'-' }, { '-' ,'-' ,'-' }, { '-' ,'-' ,'-' } };
 
+int main() {
+    game_class* myObject = new game_class();
+    myObject->start();
+    return 0;
+}
+
 void game_class::start()
 {
     cout << "Welcome to Tic Tac Toe!" << endl;
@@ -58,3 +64,11 @@ int game_class::cols_choose() {
     }
     return col;
 }
+
+void game_class::change_board() {
+
+};
+
+bool findWin() {
+    return 0;
+};
