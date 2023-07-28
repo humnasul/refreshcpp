@@ -41,6 +41,6 @@ void game_class::printBoard()
     }
 }
 
-void game_class::rows_cols() {
-
+void game_class::row_choose() {
+    cout << "Choose a row :: "
 }
