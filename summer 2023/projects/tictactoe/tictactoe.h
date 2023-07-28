@@ -1,6 +1,6 @@
 #pragma once
-#ifndef TICTACTOE.H
-#define TICTACTOE.H
+// #ifndef TICTACTOE.H
+// #define TICTACTOE.H
 //known as "header guards" - prevent redeclaration of any identifiers such as types, enums, classes, and static variables
 //used to prevent code from being included multiple times
 
@@ -12,8 +12,9 @@ public:
 
 private:
     void change_board();
-    void findWin();
+    void rows_cols();
+    bool findWin();
 };
 
 
-#endif
+// #endif
