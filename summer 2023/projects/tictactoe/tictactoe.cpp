@@ -44,8 +44,17 @@ void game_class::printBoard()
 int game_class::rows_choose() {
     int row = -1;
     while (row < 1 || row > 3) {
-        cout << "Choose a row :: " << endl;
+        cout << "Choose a row (1-3) :: " << endl;
         cin >> row;
     }
     return row;
+}
+
+int game_class::cols_choose() {
+    int col = -1;
+    while (col < 1 || col > 3) {
+        cout << "Choose a column (1-3) :: " << endl;
+        cin >> col;
+    }
+    return col;
 }

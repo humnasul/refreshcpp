@@ -13,7 +13,7 @@ public:
 private:
     void change_board();
     int rows_choose();
-    int col_choose();
+    int cols_choose();
     bool findWin();
 };
 
