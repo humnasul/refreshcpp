@@ -12,8 +12,8 @@ public:
 
 private:
     void change_board();
-    void rows_choose();
-    void col_choose();
+    int rows_choose();
+    int col_choose();
     bool findWin();
 };
 
