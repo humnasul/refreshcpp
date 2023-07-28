@@ -3,7 +3,9 @@
 
 using namespace std;
 
-void game_class::do_something()
+char board[3][3] = { {'-','-' ,'-' }, { '-' ,'-' ,'-' }, { '-' ,'-' ,'-' } };
+
+void game_class::start()
 {
     cout << "Doing something!" << endl;
 }

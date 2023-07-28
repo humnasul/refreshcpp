@@ -7,7 +7,12 @@
 class game_class
 {
 public:
-    void do_something();
+    void start();
+    void printBoard();
+
+private:
+    void change_board();
+    void findWin();
 };
 
 
