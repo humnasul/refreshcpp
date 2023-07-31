@@ -23,5 +23,17 @@ int main() {
 		std::cout << "You didn't enter your name." << endl;
 	}
 
+	name.clear();
+	//clears value of name
+
+	name.append("@gmail.com");
+	std::cout << "Your username is " << name << endl;
+
+	std::cout << name.at(5);
+	//with at(), first character in string is at place 0
+
+	name.insert(0, "@");
+	//puts @ at beginning of name
+
 	return 0;
 }
