@@ -35,5 +35,12 @@ int main() {
 	name.insert(0, "@");
 	//puts @ at beginning of name
 
+	std::cout << name.find(' ');
+	//finds index of the first whitespace in 'name'
+
+	name.erase(0, 3);
+	//erases portion of string
+	//in this ex, deletes first 3 characters
+
 	return 0;
 }
