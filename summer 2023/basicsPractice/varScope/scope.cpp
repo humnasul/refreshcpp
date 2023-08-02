@@ -1,7 +1,8 @@
 #include <iostream>
 
 int myNum = 3;
-//global variable :)
+//global variable :) - accessible to all functions; less secure than local
+//local variables are declared inside a function - hidden to outside world
 
 int main() {
 	int myNum = 1;
