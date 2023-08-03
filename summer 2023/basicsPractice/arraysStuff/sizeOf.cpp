@@ -17,6 +17,8 @@ int main() {
 	//this is because a string is a reference data type!!
 
 	std::cout << sizeof(meow) << " bytes\n";
+	//1 byte
+
 	std::cout << sizeof(cat) << " bytes\n";
 	//1 byte
 
