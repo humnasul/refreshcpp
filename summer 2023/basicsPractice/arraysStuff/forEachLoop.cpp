@@ -16,7 +16,12 @@ int main() {
 	for (std::string student : students) {
 		std::cout << student;
 	}
-	//for each loop :)
+	//for each loop :) - less flexible, but less syntax
+
+	for (std::string grade : grades) {
+		std::cout << grade;
+	}
+	//for each loop :) - less flexible, but less syntax
 
 	return 0;
 }
