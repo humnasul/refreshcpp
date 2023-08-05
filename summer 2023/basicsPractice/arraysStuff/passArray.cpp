@@ -5,7 +5,6 @@ int main() {
 	int size = sizeof(prices) / sizeof(prices[0]);
 	double total = getTotal(prices, size);
 
-
 	std::cout << "$" << total;
 	return 0;
 }
@@ -17,5 +16,13 @@ double getTotal(double pr[], int size) {
 	for (int i = 0; i < size; i++) {
 		total += pr[i];
 	}
+
+	/*
+	for (double p : prices) {
+
+	}
+	this does not work because you no longer know the size of an array - you have a pointer!
+	*/
+
 	return total;
 }
