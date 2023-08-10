@@ -21,5 +21,14 @@
     <ClCompile Include="forEachLoop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="passArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="searchArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sortArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

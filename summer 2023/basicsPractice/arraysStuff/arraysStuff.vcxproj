@@ -128,7 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="forEachLoop.cpp" />
+    <ClCompile Include="passArray.cpp" />
+    <ClCompile Include="searchArray.cpp" />
     <ClCompile Include="sizeOf.cpp" />
+    <ClCompile Include="sortArray.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
