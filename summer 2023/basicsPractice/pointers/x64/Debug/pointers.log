@@ -1,0 +1,5 @@
+﻿  nullPoint.cpp
+  pointPrac.cpp
+  Generating Code...
+pointPrac.obj : error LNK2005: main already defined in nullPoint.obj
+C:\Users\Humna\source\repos\basicsPractice\x64\Debug\pointers.exe : fatal error LNK1169: one or more multiply defined symbols found
