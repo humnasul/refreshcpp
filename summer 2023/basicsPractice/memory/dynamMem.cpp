@@ -20,6 +20,30 @@ int main() {
 
 	delete pNum;
 	//whenever you use 'new', you should use the delete operator!
+
+
+	//allocating memory dynamically is used when the memory size is unknown
+	char* pGrades = NULL;
+	int size;
+
+	std::cout << "How many grades to enter in? :: ";
+	std::cin >> size;
+
+
+	pGrades = new char[size];
+	//we don't know how many grades!
+
+	for (int i = 0; i < size; i++) {
+		std::cout << "Enter grade #" << i + 1 << ": ";
+		std::cin >> pGrades[i];
+	}
+
+	for (int i = 0; i < size; i++) {
+		std::cout << pGrades[i] << " ";
+	}
+
+	delete[] pGrades;
+	//need to delete because used 'new'
 	
 	return 0;
 }
