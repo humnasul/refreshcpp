@@ -37,5 +37,10 @@ int factorial1(int num) {
 }
 
 int factorial2(int num) {
-	
+	if (num > 1) {
+		return num + factorial2(num - 1);
+	}
+	else {
+		return 1;
+	}
 }
