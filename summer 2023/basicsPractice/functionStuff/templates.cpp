@@ -1,6 +1,9 @@
 #include <iostream>
 
-int max(int x, int y) {
+template <typename T>
+
+T max(T x, T y) {
+	//use a generic 'T' instead of 'int' or 'double'
 	return (x > y) ? x : y;
 }
 
