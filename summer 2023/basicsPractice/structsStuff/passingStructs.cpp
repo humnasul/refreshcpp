@@ -20,6 +20,7 @@ int main() {
 	car2.year = 2004;
 	car2.color = "purple";
 
+	paintCar(car1, "blue");
 	printCar(car1);
 	//passed by value, not reference
 	// almost like the function makes a copy of the struct :o
@@ -29,7 +30,14 @@ int main() {
 }
 
 void printCar(Car car) {
+	std::cout << &car << '\n';
 	std::cout << car.model << '\n';
 	std::cout << car.year << '\n';
 	std::cout << car.color << '\n';
+}
+
+void paintCar(Car &car, std::string color) {
+	//you need to use "Car &car" in order to change the original in main - otherwise does not actually change the struct in main!
+	//remember & is address of operator
+	car.color = color;
 }
