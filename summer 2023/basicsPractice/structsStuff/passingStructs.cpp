@@ -20,6 +20,16 @@ int main() {
 	car2.year = 2004;
 	car2.color = "purple";
 
+	printCar(car1);
+	//passed by value, not reference
+	// almost like the function makes a copy of the struct :o
+
 
 	return 0;
+}
+
+void printCar(Car car) {
+	std::cout << car.model << '\n';
+	std::cout << car.year << '\n';
+	std::cout << car.color << '\n';
 }
