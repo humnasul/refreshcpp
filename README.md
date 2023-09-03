@@ -14,3 +14,4 @@ possibly helpful resources for cs385
 - https://www.youtube.com/watch?v=B31LgI4Y4DQ
 - https://www.youtube.com/watch?v=StCb0H84T6A
 - intro to algos MIT: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/download/
+- algorithms book: https://cses.fi/book/book.pdf
